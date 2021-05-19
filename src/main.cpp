@@ -23,10 +23,9 @@ namespace addon {
     }
 
     void Add(const FunctionCallbackInfo<Value>& args) {
-        Isolate* isolate = args.GetIsolate();
-        double val1 = args[0].As<Number>()->Value();
-        double val2 = args[1].As<Number>()->Value();
-        args.GetReturnValue().Set( add(&val1, &val2) );
+        double dbl1 = args[0].As<Number>()->Value();
+        double dbl2 = args[1].As<Number>()->Value();
+        args.GetReturnValue().Set( add(&dbl1, &dbl2) );
     }
 
     void Initialize(Local<Object> exports) {
