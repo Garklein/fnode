@@ -22,7 +22,7 @@ Compile [main.f90](./src/main.f90) into an object file. With GFortran: `gfortran
 
 To build the addon (these commands for node-gyp but just follow the corresponding instructions for anything else you might be using), run `node-gyp configure` followed by `node-gyp build`.
 
-## errors you might get
+## Errors you might get
 
 ### debugging info corrupt
 
@@ -35,3 +35,7 @@ Your Fortran compiler is not compiling for 64 bits. Make sure you have the (if y
 #### sorry, unimplemented: 64 bit mode not compiled in 
 
 If compiling with GFortran, this means you've installed the 32 bit architecture. Reinstall it with 64 bit architecture (see above).
+
+## Also check out the [Node.js addon documentation](https://nodejs.org/api/addons.html)
+
+where I stole most of the c++ code from
