@@ -2,6 +2,8 @@
 
 ## Setup
 
+Clone or download this repository
+
 ### Fortran setup
 
 You will need a Fortran compiler (I used [GFortran](https://gcc.gnu.org/wiki/GFortran)  
@@ -32,7 +34,7 @@ I have no idea why this happens, but to fix this, I run `node-gyp rebuild`
 
 Your Fortran compiler is not compiling for 64 bits. Make sure you have the (if you're using GFortran) -m64 flag at the end.
 
-#### sorry, unimplemented: 64 bit mode not compiled in 
+#### sorry, unimplemented: 64 bit mode not compiled in
 
 If compiling with GFortran, this means you've installed the 32 bit architecture. Reinstall it with 64 bit architecture (see above).
 
