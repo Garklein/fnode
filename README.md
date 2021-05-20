@@ -12,7 +12,9 @@ You need to install a version building for 64 bit, otherwise this will break. If
 ### Node setup
 
 I used [node-gyp](https://github.com/nodejs/node-gyp) for creating the addon, but you could also use something like [CMake.js](https://github.com/cmake-js/cmake-js)  
-For whichever you choose to use, just follow all the instructions on its Github page to install it.
+For whichever you choose to use, just follow all the instructions on its Github page to install it.  
+
+Note: don't try to actually build the addon yet, you'll get tons of errors.
 
 ## Building this stencil
 
