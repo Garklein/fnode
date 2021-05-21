@@ -1,5 +1,4 @@
 #include <node.h>
-#include <iostream>
 
 namespace addon {
 
