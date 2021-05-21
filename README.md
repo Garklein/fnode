@@ -6,7 +6,7 @@ Clone or download this repository
 
 ### Fortran setup
 
-You will need a Fortran compiler (I used [GFortran](https://gcc.gnu.org/wiki/GFortran)  
+You will need a Fortran compiler (I used [GFortran](https://gcc.gnu.org/wiki/GFortran))  
 You need to install a version building for 64 bit, otherwise this will break. If you're using GFortran, you can do this by choosing the "x86_64" architecture on the settings screen.
 
 ### Node setup
@@ -24,7 +24,7 @@ Compile [main.f90](./src/main.f90) into an object file. With GFortran: `gfortran
 
 ### Building the actual addon
 
-To build the addon (these commands for node-gyp but just follow the corresponding instructions for anything else you might be using), run `node-gyp configure` followed by `node-gyp build`.
+To build the addon (these commands for node-gyp but just follow the corresponding instructions for anything else you might be using,) run `node-gyp configure` followed by `node-gyp build`.
 
 ## Errors you might get
 
